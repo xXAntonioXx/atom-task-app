@@ -8,7 +8,7 @@
         "test": "jest",
         "start": "node dist/server.js",
         "dev": "node --loader ts-node/esm src/server.ts",
-        "build": "tsc",
+        "build": "tsc --project tsconfig.json",
         "lint": "eslint . --ext .ts,.tsx"
     },
     "author": "",
