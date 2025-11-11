@@ -1,1 +1,2 @@
-"# My Fullstack App" 
+# atom-task-app
+monorepo of atom task-app
