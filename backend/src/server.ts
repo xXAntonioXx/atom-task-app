@@ -17,7 +17,7 @@ app.get('/', (req, res) => {
 });
 setRoutes(app);
 
-if (process.env.FUNCTIONS_EMULATOR === 'true') {
+if (process.env.FUNCTIONS_EMULATOR != 'true') {
     const port = process.env.PORT || 3000;
     app.listen(port, () => {
         console.log(`Server is running at http://localhost:${port}`);
